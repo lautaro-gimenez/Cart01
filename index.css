@@ -17,3 +17,21 @@ body, html {
     width: 100%; /* La imagen ocupará el 100% del ancho del contenedor */
     height: auto; /* Ajusta la altura automáticamente según la relación de aspecto */
   }
+
+  .cabecera{
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    position: fixed;
+    max-width: 100%; /* El ancho máximo del div es el 100% del viewport */
+    text-align: center;
+    border-radius: 18px;
+    
+  }
+  .cabecera img{
+    display: block; /* Asegura que la imagen sea tratada como un bloque */
+    margin: 0 auto;
+    max-width: 100%; /* El ancho máximo de la imagen es el 100% del div */
+    height: auto;
+    border-bottom: 5px solid #a99f0d;
+    border-radius: 18px;
+  }
