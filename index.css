@@ -1,0 +1,19 @@
+/* Establece un alto máximo para evitar que la imagen se vuelva demasiado grande */
+body, html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden; /* Oculta la barra de desplazamiento horizontal */
+  }
+  
+  .contenedor-imagen {
+    min-height: 100%; /* Establece la altura mínima del contenedor al 100% de la ventana */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .imagen-horizontal {
+    width: 100%; /* La imagen ocupará el 100% del ancho del contenedor */
+    height: auto; /* Ajusta la altura automáticamente según la relación de aspecto */
+  }
